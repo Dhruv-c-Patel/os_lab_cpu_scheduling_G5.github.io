@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* Navigation Bar */
+#container {
+  position:relative;
+  width:80%;
+  border-radius: 11px;
+  margin:5% auto;
+  background-color:rgb(26, 25, 22);
+  box-shadow: -2px -2px 5px white,2px -2px 5px white;
+  z-index: 2;
+}
+#container > nav {
+  width:100%;
+  display:flex;
+  max-height:60px;
+}
+#logo {
+  line-height:60px;
+  font-size:30px;
+  padding: 0 50px;
+  color: white;
+  width:40%;
+  letter-spacing:2px;
+  text-shadow:2px 2px 5px;
+}
+#container > nav > ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  display:flex;
+  position:relative;
+    right:50px;
+
+}
+#container > nav > ul > li {
+  line-height:60px;
+  margin: 0 0px;
+  padding:0;
+  text-align:center;
+  display:inline-block;
+  border-radius: 10px;
+  min-width:120px;
+ 
+} 
+#container > nav > ul > li > a {
+  position:relative;
+  margin: 0 20px;
+    color:white;
+}
+#container > nav > ul > li:hover {
+  border-bottom: 2px solid white;
+  background-color:  rgb(112, 110, 105);
+}
+#container > nav > ul > .dropdown:hover {
+  border-bottom:none;
+}
+#container > nav > ul > .dropdown:hover >  .dd
+{
+  display:block;
+}
+.dropdown:hover > a .fa-caret-down {
+  display:none;
+}
+a {
+  text-decoration:none;
+
+}
+
+#container > nav > ul > li > div {
+  position:relative;
+  padding: 0 10px;
+  
+  background-color:black;
+  display:none;
+  background-color:aliceblue;
+  min-width:100px;
+}
+
+#container > nav > ul > li > div > ul {
+  margin:0px 0 10px 0;
+  padding:0;
+  list-style:none;
+}
+#u_a_c {
+  position:relative;
+  width:100%;
+/*   background-color:red; */
+}
+#up_arrow {
+  position:relative;
+  width:20px;
+  height:20px;
+  left:42%;
+  top:-10px;
+  background-color:aliceblue;
+  transform:rotate(45deg);
+}
+#container > nav > ul > li> div > ul > li:hover {
+  background-color:rgba(0,0,0,0.2);
+}
+#container > nav > ul > li > div > ul > li > a {
+  padding : 5px;
+    color:black;
+}
+#container > nav > ul > li > div > ul > li:hover {
+  padding: 5px;
+  color: black;
+  background-color: #158bf4;
+  border-radius: 10px;
+}
+
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+     background: url(https://img.freepik.com/free-photo/gray-abstract-wireframe-technology-background_53876-101941.jpg?w=1060); 
+    height: 100%;
+    background-size: cover;
+}
+
+#fullform{
+    position:relative;
+    width:50%;
+    height: 5%;
+    margin: 3% auto;
+    /* background-color:rgb(26, 25, 22); */
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+  }
+
+#fullform{
+    line-height:60px;
+    font-size:  2rem;;
+    /* color: white; */
+    width:80%;
+    letter-spacing:2px;
+    /* border-radius: 15px; */
+  }
+
+main{
+    justify-content: center;
+    margin: 10px auto;
+    /* color: white; */
+    display: flex;
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+    border-radius: 25px;
+    /* background-color: rgb(26, 25, 22); */
+}
+
+.instruction li{
+  list-style:inside;
+}
+
+.instruction{
+  padding-top: 10px;
+  /* border: 2px solid white; */
+  /* text-align: center; */
+  border-radius: 15px;
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  
+}
+
+.introduction{
+  padding: -10px 10px 10px 20px;
+  /* border: 2px solid white; */
+  /* background-color: rgb(60 45 45); */
+  border-radius: 15px;
+  text-align: justify;
+}
+
+.advantage{
+  padding: 0px 10px 10px 20px;
+  /* border: 2px solid white; */
+  /* background-color: rgb(60 45 45); */
+  border-radius: 15px;
+  /* text-align: unset; */
+}
+
+.disadvantage{
+  padding: 0px 10px 10px 20px;
+  /* border: 2px solid white; */
+  /* background-color: rgb(60 45 45); */
+  /* border-radius: 15px; */
+  /* text-align: justify; */
+}
+
+#introduction{
+  /* border: 2px solid white; */
+  border-radius: 15px;
+  padding: 15px 15px 15px 15px;
+  margin-top: 10px;
+}
+
+#advantage{
+  /* border: 2px solid white; */
+  border-radius: 15px;
+  padding: 15px 15px 15px 15px;
+  margin-top: 10px;
+}
+
+#disadvantage{
+  /* border: 2px solid white; */
+  border-radius: 15px;
+  padding: 15px 15px 15px 15px;
+  margin-top: 10px;
+}
+/* <!-- HTML !-->
+<button class="button-1" role="button">Button 1</button> */
+
+/* CSS */
+
+.button-1 {
+align-items: center;
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin-left : 650px;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}

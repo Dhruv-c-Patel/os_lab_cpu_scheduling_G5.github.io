@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="algorithm.css">
+    <title>SRTF Algorithm</title>
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <div id="logo">
+                OS Lab
+            </div>
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"> <a href="#">Algorithms &nbsp;<i
+                            class="fa fa-caret-down"></i></a>
+                    <div class="dd">
+                        <div id="up_arrow"></div>
+                        <ul>
+                            <li><a href="srtf.html" target="_blank">SRTF</a></li>
+                            <li><a href="sjf.html" target="_blank">SJF</a></li>
+                            <li><a href="rr.html" target="_blank">RR</a></li>
+                            <li><a href="fcfs.html" target="_blank">FCFS</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li><a href="#" target="_blank">About us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header>
+
+        <!-- <section id="algorithmname">
+            <h1>
+                <center>SRTF Algorithm </center>
+            </h1>
+        </section> -->
+        <section id="fullform">
+            <p class="paragraph-1">
+                <center>
+                    <h2>Shortest Remaining Time First(SRTS) </h2>
+                </center>
+            </p>
+        </section>
+
+    </header>
+    <main>
+        <section id="introduction">
+            <!-- <p class="paragraph-9"> -->
+            <div class="instruction">
+
+                <h3> Introduction About SRTF Algorithm </h3>
+            </div>
+            <br>
+            <ul class="introduction">
+                <li> It is a pre-emptive version of SIF. </li>
+                <br>
+                <li> Every process get CPU for some amount of time and then the process which have shortest remaining
+                    time gets CPU. </li>
+                <br>
+                <li> Initially it is pre-emptive, after some time it becomes non pre-emptive. </li>
+                <br>
+            </ul>
+            <!-- </p> -->
+        </section>
+
+        <section id="advantage">
+            <!-- <p class="paragraph-8"> -->
+            <div class="instruction">
+
+                <h3> Advantage of SRTF Algorithm </h3>
+            </div>
+            <br>
+            <ul class="advantage">
+                <li> This Algorithm makes processing of jobs faster than SIF, because overhead charges are not counted.
+                </li>
+                <br>
+                <li> Note : Here overhead means amount of time taken for contaxt switch. </li>
+                <br>
+            </ul>
+            <!-- </p> -->
+        </section>
+
+        <section id="disadvantage">
+            <!-- <p class="paragraph-7"> -->
+            <div class="instruction">
+
+                <h3> Disadvantage of SRTF Algorithm</h3>
+            </div>
+            <br>
+            <ul class="disadvantage">
+                <li> Contaxt switch done more time hence, Consumes valuable time of CPU. </li>
+                <br>
+            </ul>
+            <!-- </p> -->
+        </section>
+    </main>
+    <div>
+        <a class="button-1" href="srtf_dhruv.html" target="_blank" >Click Here For Simulation</a> 
+    </div>
+</body>
+
+</html>

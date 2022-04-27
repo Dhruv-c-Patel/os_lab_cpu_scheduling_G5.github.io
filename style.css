@@ -1,0 +1,225 @@
+/* css reset  */
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+/* Navigation Bar */
+
+#container {
+    position:relative;
+    width:80%;
+    margin:5% auto;
+    background-color:rgb(26, 25, 22);
+    box-shadow: -2px -2px 5px white,2px -2px 5px white;
+  }
+  #container > nav {
+    width:100%;
+    display:flex;
+    max-height:60px;
+    
+  }
+  #logo {
+    line-height:60px;
+    font-size:30px;
+    padding: 0 50px;
+    color: white;
+    width:40%;
+    letter-spacing:2px;
+    text-shadow:2px 2px 5px;
+  }
+  #container > nav > ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    display:flex;
+    position:absolute;
+     right: 50px;
+
+  } 
+  #container > nav > ul > li {
+    line-height:60px;
+    margin: 0 0px;
+    padding:0;
+    text-align:center;
+    display:inline-block;
+    
+ 
+    min-width:120px;
+  
+  } 
+  #container > nav > ul > li > a {
+    position:relative;
+
+    margin: 0 20px;
+      color:white;
+  }
+  #container > nav > ul > li:hover {
+    border-bottom: 2px solid white;
+    background-color: #0088ff;
+  }
+  #container > nav > ul > .dropdown:hover {
+    border-bottom:none;
+  }
+  #container > nav > ul > .dropdown:hover >  .dd
+  {
+    display:block;
+  }
+  .dropdown:hover > a .fa-caret-down {
+    display:none;
+  }
+  a {
+    text-decoration:none;
+  
+  }
+  
+  #container > nav > ul > li > div {
+    position:absolute;
+    padding: 0 10px;
+    
+    background-color:black;
+    display:none;
+    background-color:aliceblue;
+    min-width:100px;
+  }
+  
+  #container > nav > ul > li > div > ul {
+    margin:0px 0 10px 0;
+    padding:0;
+    list-style:none;
+  }
+  #u_a_c {
+    position:relative;
+    width:100%;
+  /*   background-color:red; */
+  }
+  #up_arrow {
+    position:relative;
+    width:20px;
+    height:20px;
+    left:42%;
+    top:-10px;
+    background-color:aliceblue;
+    transform:rotate(45deg);
+  }
+  #container > nav > ul > li> div > ul > li:hover {
+    background-color:rgba(0,0,0,0.2);
+  }
+  #container > nav > ul > li > div > ul > li > a {
+    padding : 5px;
+      color:black;
+  }
+  body{
+    font-family: 'Fira Sans', sans-serif;
+     background: url(https://img.freepik.com/free-photo/gray-abstract-wireframe-technology-background_53876-101941.jpg?w=1060); 
+    height: 100%;
+    background-size: cover;
+}
+
+.bgcolor{
+    /* border: 2px solid white; */
+    justify-content: center;
+    margin: 10px auto;
+    /* color: white; */
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    border-radius: 15px;
+    /* background-color: rgb(26, 25, 22); */
+}
+
+#heading-1{
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    margin: 10px 10px 10px;
+    padding-top: 30px;
+    align-items: center;
+    height: 215px;
+    justify-content: center;
+}
+#heading-1 h1{
+    font-size: 2.8rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    padding: 23px 10px;
+    text-align: center; 
+    margin-bottom: -18px;
+}
+#heading-1 p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.6rem;
+    padding: 5px 15px; 
+    text-align: center;
+} 
+
+
+#heading-2{
+    align-items: center;
+    height: auto;
+    justify-content: center;
+}
+#heading-2 #h2{
+    font-size: 1.6rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    padding: 23px 20px;
+    
+    margin-bottom: -18px;
+}
+#heading-2 p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.0rem;
+    padding: 5px 20px;   
+} 
+    /* #heading-2 img{
+    
+        padding: 5px 10px;   
+    }  */
+
+#heading-3{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 25px 15px;
+    margin-top: -18px;
+    /* border: 2px solid white; */
+}
+
+
+ #heading-3 .h1{
+    font-size: 1.6rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    padding: 20px 10px;
+    
+    margin-bottom: -13px;
+}
+.paragraph-3{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.0rem;
+    padding: 5px 10px;   
+} 
+
+.type-1{
+  
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    /* padding: 20px 10px;
+    margin: 5px; */
+    /* height: 133px; */
+    /* background-color: rgb(60 45 45); */
+}
+.type-2{
+   
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    /* padding: 20px 10px;
+    margin: 5px; */
+    height: 133px;
+    /* background-color: rgb(60 45 45); */
+}
+
+/* Text center */
+ .center{
+    text-align: center;
+}
